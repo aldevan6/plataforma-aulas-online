@@ -1,0 +1,25 @@
+Table usuarios {
+    id int [pk, increment]
+    nome varchar(150)
+    perfil varchar(20)
+    matricula  varchar(20) [unique]
+    senha varchar(64)
+}
+
+Table posts {
+    id int [pk, increment]
+    titulo varchar(150)
+    subtitulo varchar(100)
+    conteudo text
+    data_publicacao datetime
+}
+
+Table turmas {
+  id int [pk, increment]
+  nome varchar(30)
+}
+
+Table disciplinas{
+  id int [pk, increment]
+  nome varchar(50)
+}

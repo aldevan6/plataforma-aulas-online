@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 110px;
+    display: flex;
+    align-items: center;
+    background-color: #00BF63;
+    /* box-shadow: 1px 1px 1px 1px  rgba(0,0,0,0.1); */
+ }
+main{
+    margin-top: 100px;
+}
+.logo{
+    width: 89px;
+}
+.banner{
+    margin-top: 125px;
+    margin-bottom: 15px;
+}
+.blog-footer {
+    margin-top: 30px;
+    padding: 1.5rem 0;
+    color: #727272;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+  }
